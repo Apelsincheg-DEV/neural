@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Нейросеть на TF.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+</head>
+<body>
+  <h2>Простая нейросеть для XOR</h2>
+  <p>Введите два значения (0 или 1):</p>
+  <input type="number" id="x1" min="0" max="1" value="0"><br><br>
+  <input type="number" id="x2" min="0" max="1" value="0"><br><br>
+  <button onclick="predict()">Предсказать</button>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
